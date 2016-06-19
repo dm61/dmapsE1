@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-06-18T20:07:40 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-06-18T20:07:40-06:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a5a", 
+    "enteredBy": "openaps://medtronic/523", 
+    "amount": 90, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2016-06-18T20:07:40-06:00", 
+    "_date": "6887347210", 
+    "glucose": 90
+  }
+]
