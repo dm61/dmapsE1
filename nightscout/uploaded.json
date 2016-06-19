@@ -1,93 +1,31 @@
 [
   {
-    "carbs": 15, 
-    "ratio": "9.5", 
-    "bolus": {
-      "_type": "Bolus", 
-      "_description": "Bolus 2016-06-19T17:25:20 head[8], body[0] op[0x01]", 
-      "timestamp": "2016-06-19T17:25:20-06:00", 
-      "_body": "", 
-      "appended": [
-        {
-          "_type": "UnabsorbedInsulinBolus", 
-          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-          "_body": "", 
-          "_head": "5c083edb042ed514", 
-          "data": [
-            {
-              "amount": 1.55, 
-              "age": 219
-            }, 
-            {
-              "amount": 1.15, 
-              "age": 469
-            }
-          ], 
-          "_date": ""
-        }
-      ], 
-      "programmed": 1.55, 
-      "duration": 0, 
-      "amount": 1.55, 
-      "unabsorbed": 0.15, 
-      "_head": "01003e003e000600", 
-      "type": "normal", 
-      "_date": "5499517310"
-    }, 
-    "timestamp": "2016-06-19T17:25:20-06:00", 
-    "created_at": "2016-06-19T17:25:20-06:00", 
-    "wizard": {
-      "_type": "BolusWizard", 
-      "bg": 0, 
-      "_description": "BolusWizard 2016-06-19T17:25:20 head[2], body[15] op[0x5b]", 
-      "bg_target_low": 80, 
-      "_body": "0f50005f325000003e000000003e50", 
-      "carb_input": 15, 
-      "bg_target_high": 80, 
-      "sensitivity": 50, 
-      "carb_ratio": 9.5, 
-      "food_estimate": 1.55, 
-      "unabsorbed_insulin_total": 0, 
-      "correction_estimate": 0, 
-      "timestamp": "2016-06-19T17:25:20-06:00", 
-      "_head": "5b00", 
-      "bolus_estimate": 1.55, 
-      "_date": "5499117310"
-    }, 
-    "enteredBy": "openaps://medtronic/523", 
-    "insulin": 1.55, 
-    "eventType": "Meal Bolus", 
-    "duration": 0, 
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 1.55\nDelivered bolus 1.55\nPercent delivered:  100%\nFood estimate 1.55\nCorrection estimate 0\nBolus estimate 1.55\nTarget low 80\nTarget high 80\nHypothetical glucose delta -77.5", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus"
-  }, 
-  {
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
-      "_description": "TempBasal 2016-06-19T17:24:50 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-06-19T17:24:50-06:00", 
+      "_description": "TempBasal 2016-06-19T17:29:52 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-06-19T17:29:52-06:00", 
       "_body": "00", 
-      "_head": "332f", 
-      "rate": 1.175, 
-      "_date": "7298115310"
+      "_head": "330d", 
+      "rate": 0.325, 
+      "_date": "749d115310"
     }, 
-    "timestamp": "2016-06-19T17:24:50-06:00", 
+    "timestamp": "2016-06-19T17:29:52-06:00", 
     "raw_duration": {
       "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-06-19T17:24:50 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-06-19T17:24:50-06:00", 
+      "_description": "TempBasalDuration 2016-06-19T17:29:52 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-06-19T17:29:52-06:00", 
       "_body": "", 
       "_head": "1601", 
       "duration (min)": 30, 
-      "_date": "7298115310"
+      "_date": "749d115310"
     }, 
-    "created_at": "2016-06-19T17:24:50-06:00", 
+    "created_at": "2016-06-19T17:29:52-06:00", 
     "enteredBy": "openaps://medtronic/523", 
-    "rate": 1.175, 
+    "rate": 0.325, 
     "eventType": "Temp Basal", 
     "duration": 30, 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": 1.175
+    "absolute": 0.325
   }
 ]
