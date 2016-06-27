@@ -2,7 +2,7 @@
   {
     "_type": "Sara6E", 
     "_description": "Sara6E 2016-06-28T00:00:00 head[1], body[49] op[0x6e]", 
-    "timestamp": "2016-06-28T00:00:00-06:00", 
+    "timestamp": "2016-06-28T00:00:00+02:00", 
     "_body": "05008d5ba3030000054102873002ba3400a502ba0000000000000b000000000000000000000000aaaa0000000000000000", 
     "_head": "6e", 
     "valid_date": "2016-06-27", 
@@ -11,7 +11,7 @@
   {
     "_type": "ResultDailyTotal", 
     "_description": "ResultDailyTotal 2016-06-28T00:00:00 head[5], body[3] op[0x07]", 
-    "timestamp": "2016-06-28T00:00:00-06:00", 
+    "timestamp": "2016-06-28T00:00:00+02:00", 
     "_body": "000000", 
     "_head": "0700000541", 
     "valid_date": "2016-06-27", 
@@ -20,7 +20,7 @@
   {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-06-28T00:00:00 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-06-28T00:00:00-06:00", 
+    "timestamp": "2016-06-28T00:00:00+02:00", 
     "_body": "001400", 
     "profile_index": 0, 
     "_head": "7b00", 
@@ -31,7 +31,7 @@
   {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-06-27T23:56:31 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-06-27T23:56:31-06:00", 
+    "timestamp": "2016-06-27T23:56:31+02:00", 
     "_body": "2c1400", 
     "profile_index": 10, 
     "_head": "7b0a", 
@@ -42,7 +42,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T23:48:35 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T23:48:35-06:00", 
+    "timestamp": "2016-06-27T23:48:35+02:00", 
     "_body": "", 
     "appended": [
       {
@@ -95,7 +95,7 @@
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2016-06-27T23:48:35 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-27T23:48:35-06:00", 
+    "timestamp": "2016-06-27T23:48:35+02:00", 
     "_body": "0550005f3250000015000000001550", 
     "carb_input": 5, 
     "bg_target_high": 80, 
@@ -112,7 +112,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T23:33:55 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T23:33:55-06:00", 
+    "timestamp": "2016-06-27T23:33:55+02:00", 
     "_body": "", 
     "appended": [
       {
@@ -161,7 +161,7 @@
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2016-06-27T23:33:55 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-27T23:33:55-06:00", 
+    "timestamp": "2016-06-27T23:33:55+02:00", 
     "_body": "0150005f3250000004000000000450", 
     "carb_input": 1, 
     "bg_target_high": 80, 
@@ -178,7 +178,7 @@
   {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-27T23:26:31 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-06-27T23:26:31-06:00", 
+    "timestamp": "2016-06-27T23:26:31+02:00", 
     "_body": "", 
     "_head": "1601", 
     "duration (min)": 30, 
@@ -188,7 +188,7 @@
     "_type": "TempBasal", 
     "temp": "absolute", 
     "_description": "TempBasal 2016-06-27T23:26:31 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-06-27T23:26:31-06:00", 
+    "timestamp": "2016-06-27T23:26:31+02:00", 
     "_body": "00", 
     "_head": "3322", 
     "rate": 0.85, 
@@ -197,7 +197,7 @@
   {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2016-06-27T22:25:00 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-06-27T22:25:00-06:00", 
+    "timestamp": "2016-06-27T22:25:00+02:00", 
     "_body": "", 
     "_head": "0aaa", 
     "amount": 170, 
@@ -206,7 +206,7 @@
   {
     "_type": "BGReceived", 
     "_description": "BGReceived 2016-06-27T22:09:41 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-06-27T22:09:41-06:00", 
+    "timestamp": "2016-06-27T22:09:41+02:00", 
     "_body": "c07b25", 
     "_head": "3f14", 
     "amount": 163, 
@@ -216,7 +216,7 @@
   {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2016-06-27T22:09:41 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-06-27T22:09:41-06:00", 
+    "timestamp": "2016-06-27T22:09:41+02:00", 
     "_body": "", 
     "_head": "0aa3", 
     "amount": 163, 
@@ -225,7 +225,7 @@
   {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-06-27T22:00:00 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-06-27T22:00:00-06:00", 
+    "timestamp": "2016-06-27T22:00:00+02:00", 
     "_body": "2c1400", 
     "profile_index": 10, 
     "_head": "7b0a", 
@@ -236,7 +236,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T21:24:20 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T21:24:20-06:00", 
+    "timestamp": "2016-06-27T21:24:20+02:00", 
     "_body": "", 
     "appended": [
       {
@@ -285,7 +285,7 @@
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2016-06-27T21:24:20 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-27T21:24:20-06:00", 
+    "timestamp": "2016-06-27T21:24:20+02:00", 
     "_body": "0c50005f3250000032000000003250", 
     "carb_input": 12, 
     "bg_target_high": 80, 
@@ -302,7 +302,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T21:18:40 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T21:18:40-06:00", 
+    "timestamp": "2016-06-27T21:18:40+02:00", 
     "_body": "", 
     "appended": [
       {
@@ -343,7 +343,7 @@
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2016-06-27T21:18:40 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-27T21:18:40-06:00", 
+    "timestamp": "2016-06-27T21:18:40+02:00", 
     "_body": "0d50005f3250000036000000003650", 
     "carb_input": 13, 
     "bg_target_high": 80, 
@@ -360,7 +360,7 @@
   {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-06-27T20:00:00 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-06-27T20:00:00-06:00", 
+    "timestamp": "2016-06-27T20:00:00+02:00", 
     "_body": "281100", 
     "profile_index": 9, 
     "_head": "7b09", 
@@ -371,7 +371,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T19:49:16 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T19:49:16-06:00", 
+    "timestamp": "2016-06-27T19:49:16+02:00", 
     "_body": "", 
     "appended": [
       {
@@ -416,7 +416,7 @@
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2016-06-27T19:49:16 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-27T19:49:16-06:00", 
+    "timestamp": "2016-06-27T19:49:16+02:00", 
     "_body": "1a50005f325000006c000000006c50", 
     "carb_input": 26, 
     "bg_target_high": 80, 
@@ -433,7 +433,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T18:36:22 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T18:36:22-06:00", 
+    "timestamp": "2016-06-27T18:36:22+02:00", 
     "_body": "", 
     "appended": [
       {
@@ -478,7 +478,7 @@
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2016-06-27T18:36:22 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-27T18:36:22-06:00", 
+    "timestamp": "2016-06-27T18:36:22+02:00", 
     "_body": "0f50005f325000003e000000003e50", 
     "carb_input": 15, 
     "bg_target_high": 80, 
@@ -495,7 +495,7 @@
   {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-06-27T18:16:48 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-06-27T18:16:48-06:00", 
+    "timestamp": "2016-06-27T18:16:48+02:00", 
     "_body": "1e0d00", 
     "profile_index": 8, 
     "_head": "7b08", 
@@ -506,7 +506,7 @@
   {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-27T17:46:48 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-06-27T17:46:48-06:00", 
+    "timestamp": "2016-06-27T17:46:48+02:00", 
     "_body": "", 
     "_head": "1601", 
     "duration (min)": 30, 
@@ -516,7 +516,7 @@
     "_type": "TempBasal", 
     "temp": "absolute", 
     "_description": "TempBasal 2016-06-27T17:46:48 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-06-27T17:46:48-06:00", 
+    "timestamp": "2016-06-27T17:46:48+02:00", 
     "_body": "00", 
     "_head": "3300", 
     "rate": 0.0, 
@@ -525,7 +525,7 @@
   {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-27T17:31:52 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-06-27T17:31:52-06:00", 
+    "timestamp": "2016-06-27T17:31:52+02:00", 
     "_body": "", 
     "_head": "1601", 
     "duration (min)": 30, 
@@ -535,7 +535,7 @@
     "_type": "TempBasal", 
     "temp": "absolute", 
     "_description": "TempBasal 2016-06-27T17:31:52 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-06-27T17:31:52-06:00", 
+    "timestamp": "2016-06-27T17:31:52+02:00", 
     "_body": "00", 
     "_head": "3310", 
     "rate": 0.4, 
@@ -544,7 +544,7 @@
   {
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T17:18:05 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T17:18:05-06:00", 
+    "timestamp": "2016-06-27T17:18:05+02:00", 
     "_body": "", 
     "appended": [
       {
@@ -581,7 +581,7 @@
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2016-06-27T17:18:05 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-27T17:18:05-06:00", 
+    "timestamp": "2016-06-27T17:18:05+02:00", 
     "_body": "0f50005f325000003e000000003e50", 
     "carb_input": 15, 
     "bg_target_high": 80, 
@@ -598,7 +598,7 @@
   {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-06-27T17:14:56 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-06-27T17:14:56-06:00", 
+    "timestamp": "2016-06-27T17:14:56+02:00", 
     "_body": "", 
     "_head": "1609", 
     "duration (min)": 270, 
@@ -608,7 +608,7 @@
     "_type": "TempBasal", 
     "temp": "absolute", 
     "_description": "TempBasal 2016-06-27T17:14:56 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-06-27T17:14:56-06:00", 
+    "timestamp": "2016-06-27T17:14:56+02:00", 
     "_body": "00", 
     "_head": "3332", 
     "rate": 1.25, 
