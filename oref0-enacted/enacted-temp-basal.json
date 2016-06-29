@@ -1,1 +1,13 @@
-{"temp":"absolute","bg":90,"tick":"+9","eventualBG":45,"snoozeBG":45,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: 43 BGI: -8.3","reason":"Eventual BG 45<90, but Delta +9 > Exp. Delta -7.4; setting current basal of 0.33 as temp","duration":30,"rate":0.35}
+{
+  "bg": 98, 
+  "temp": "absolute", 
+  "snoozeBG": 63, 
+  "recieved": true, 
+  "rate": 0.325, 
+  "reason": "Eventual BG 63<90, but Avg. Delta 8.00 > Exp. Delta -7.6; setting current basal of 0.33 as temp", 
+  "eventualBG": 63, 
+  "timestamp": "2016-06-29T16:47:46.867664", 
+  "duration": 30, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: 48 BGI: -8.12", 
+  "tick": "+8"
+}
