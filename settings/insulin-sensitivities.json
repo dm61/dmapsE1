@@ -10,11 +10,11 @@
       "offset": 0
     }, 
     {
-      "i": 24, 
-      "start": "12:00:00", 
+      "i": 16, 
+      "start": "08:00:00", 
       "sensitivity": 50, 
       "x": 1, 
-      "offset": 720
+      "offset": 480
     }
   ], 
   "first": 1
