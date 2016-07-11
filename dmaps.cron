@@ -1,0 +1,5 @@
+SHELL = /bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+*/5 * * * * kilall -g --older-than 7m openaps
+*/5 * * * * cd /home/dm61/dmaps3 && oref0-reset-git
+*/5 * * * * cd /home/dm61/dmaps3 && (ps aux | grep -v grep | grep -q 'openaps ' && echo OpenAPS already running || (printf "\n"; date; openaps set-flag; openaps dmloop; date)) 2>&1 | tee -a /home/dm61/dmaps3/dmaps.log   
